@@ -38,8 +38,12 @@ My approach is different: let a dedicated filament storage box do the heavy lift
 
 You might be thinking, “Wait, isn’t this basically the MMU/ERCF idea?” True, but their designs are still way too complex—they use lead screws, linear rods, and even require servos. So you can think of my approach as a Box Turtle that runs on a regular Klipper board (no special brushed motor driver needed) and uses an off-the-shelf buffer—but without Box part.
 
-##Buffer Klipper Intigration (Probalbly he most technical part of this project)
+---
+
+## Buffer Klipper Intigration (Probalbly he most technical part of this project)
 The Mellow LLL Filament buffer uses it's own controller, and cannot talk to klipper directly. However, it have two buttons that handles the manual "Feed" and "Retract" feature. We can use this feature to integrate it into Klipper. Since klipper/MCU-in-general can't control whether a pin can conduct with another pin, we can't simulate buttons on MCU. But we can use two mosfets, and it will perfectly simulate a "Button". Basically, a mosfet have 3 pins, a Gain(G), a Drain(D), and a Source(S). When a voltage higher than a certain threshold is applied between G and S, the D and S will conduct, exactly how buttons works, just in a controlled way.
+
+---
 
 ### Simplified Flow  
 1. Identify the two physical buttons on the buffer PCB (`feed` / `retract`).  
