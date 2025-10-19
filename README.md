@@ -26,7 +26,7 @@ Think of it as:
 | **Toolhead Cutter** | Optional — for cleaner color transitions |
 | **MOSFETs (x2)** | Used to emulate button presses on the buffer’s control PCB |
 
-*No extra mounting hardware needed! It's all off-the-shelf parts so they mount as it!*
+*No extra mounting hardware needed! It's all off-the-shelf parts so they mount as is!*
 
 ---
 
