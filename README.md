@@ -1,4 +1,3 @@
-[Chinese Version/中文版](README_CN.md)
 # Project: Yet Another MultiColor Solution (For klipper 3D Printers)
 **Status:** WIP / Early Concept  
 **Goal:** Get the most out of existing parts without reinventing the wheel  
@@ -20,14 +19,22 @@ Think of it as:
 
 | Component | Description |
 |------------|-------------|
-| **Main Control** | Klipper-based mainboard (any board with spare outputs will do) |
+| **Main Control** | You don't need this if you board have 4 or more motor slot empty. But having them on a seperate board make things easier to matain. I chosed the Mellow Fly's Micro4, that's exactly what I need. |
 | **Extruders** | Standard **BMG-style extruders** — one per filament channel |
 | **Buffer Unit** | A **Mellow LLL buffer** (A reletively cheap one I found) |
-| **Sensors** | - One **filament sensor** per channel (entry)<br>- One **filament sensor** on the toolhead (detection & timing) |
-| **Toolhead Cutter** | Optional — for hight success rate during color switching |
-| **MOSFETs (x2)** | Used to emulate button presses on the buffer’s control PCB |
+| **Sensors** | - One **filament sensor** per channel (entry)<br>- One **filament sensor** on the toolhead (detection & timing). You don't need motion detection, regular ones with a microswitch will do it |
+| **Filament Cutter** | Optional, Recommended — Install for hight success rate during color switching. It is not necessary, tip-forming can work after good tuning |
+| **MOSFETs (x2)** | Used to emulate button presses on the buffer’s control PCB. Anything like a **BSS138** should work, you don't need those heavy load one |
+| **4-in-1-out-adapter** | The Bambulab one for P1 serires works best for me, in theory you can use any one that works, even the printed ones |
 
 *No extra mounting hardware needed! It's all off-the-shelf parts so they mount as is!*
+
+Although with that being said, you might still need some extra screws, nuts, etc. Here is some you might want to keep some stock on:
+
+| Name | Description |
+|------------|-------------|
+| **M3 T-nut** | For mounting the extruder & buffer. Some BMG units might not come with them. Though you should have some left when building the machine |
+| **Heat Shrinking Tube** | Before the PCB design came out, or you just don't feel like spending more on a PCB, a heat shrinking tube will help a lot on insulating the MOSFET |
 
 ---
 
@@ -44,9 +51,7 @@ You might be thinking, “Wait, isn’t this basically the MMU/ERCF idea?” Tru
 ---
 
 ## Buffer Klipper Intigration (Probalbly he most technical part of this project)
-The Mellow LLL Filament buffer uses it's own controller, and cannot talk to klipper directly. However, it have two buttons that handles the manual "Feed" and "Retract" feature. We can use this feature to integrate it into Klipper. Since klipper/MCU-in-general can't control whether a pin can conduct with another pin, we can't simulate buttons on MCU. But we can use two mosfets, and it will perfectly simulate a "Button". Basically, a mosfet have 3 pins, a Gate(G), a Drain(D), and a Source(S). When a voltage higher than a certain threshold is applied between G and S, the D and S will conduct, exactly how buttons works, just in a controlled way.
-
----
+The Mellow LLL Filament buffer uses it's own controller, and cannot talk to klipper directly. However, it have two buttons that handles the manual "Feed" and "Retract" feature. We can use this feature to integrate it into Klipper. Since klipper/MCU-in-general can't control whether a pin can conduct with another pin, we can't simulate buttons on MCU. But we can use two mosfets, and it will perfectly simulate a "Button". Basically, a mosfet have 3 pins, a Gate(G), a Drain(D), and a Source(S). When a voltage higher than a certain threshold is applied between G and S, the D and S will conduct, exactly how buttons works, just in a controlled way. I might release a PCB for that, since leave the mosfet hanging in the air is not the best solution.
 
 ### Simplified Flow  
 1. Identify the two physical buttons on the buffer PCB (`feed` / `retract`).  
@@ -92,6 +97,13 @@ If you believe in clever hacks and low-cost innovation, you’re in the right pl
 - Share example toolhead sensor integration  
 - Document color change timing optimization  
 - Test real-world performance on ABS and PLA  
+
+---
+
+## Related link
+
+[ClockWork 2 filament sensor](https://www.printables.com/model/292186-stealthburner-clockwork-2-filament-sensor)
+[Mellow LLL Filament Buffer Item Page](https://es.aliexpress.com/item/1005007265643359.html)
 
 ---
 
