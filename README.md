@@ -103,6 +103,7 @@ If you believe in clever hacks and low-cost innovation, you’re in the right pl
 ## Related link
 
 [ClockWork 2 filament sensor](https://www.printables.com/model/292186-stealthburner-clockwork-2-filament-sensor)
+
 [Mellow LLL Filament Buffer Item Page](https://es.aliexpress.com/item/1005007265643359.html)
 
 ---
