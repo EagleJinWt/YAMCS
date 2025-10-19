@@ -22,7 +22,7 @@ Think of it as:
 | **Main Control** | You don't need this if you board have 4 or more motor slot empty. But having them on a seperate board make things easier to matain. I chosed the Mellow Fly's Micro4, that's exactly what I need. |
 | **Extruders** | Standard **BMG-style extruders** — one per filament channel |
 | **Buffer Unit** | A **Mellow LLL buffer** (A reletively cheap one I found) |
-| **Sensors** | - One **filament sensor** per channel (entry)<br>- One **filament sensor** on the toolhead (detection & timing). You don't need motion detection, regular ones with a microswitch will do it |
+| **Sensors** | - One **filament sensor** per channel (entry)<br>- One **filament sensor** on the toolhead (detection & timing). <br>*You don't need motion detection, regular ones with a microswitch will do it* |
 | **Filament Cutter** | Optional, Recommended — Install for hight success rate during color switching. It is not necessary, tip-forming can work after good tuning |
 | **MOSFETs (x2)** | Used to emulate button presses on the buffer’s control PCB. Anything like a **BSS138** should work, you don't need those heavy load one |
 | **4-in-1-out-adapter** | The Bambulab one for P1 serires works best for me, in theory you can use any one that works, even the printed ones |
