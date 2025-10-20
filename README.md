@@ -47,7 +47,7 @@ One day, I was thinking about adding a buffer to my 3D printer. Then it hit me: 
 
 But in the DIY 3D printing community, as far as I know, the only one doing something like this is Box Turtle. The problem is, their setup is way too complicated: it uses a custom mainboard to drive those N20 motors and a ton of aluminum extrusion for the structure, which drives the cost way up. Of course, there’s a reason for that—they’re carrying four spools of filament on top.
 
-My approach is different: let a dedicated filament storage box do the heavy lifting (I will include the one I used. It simple, but make sure to check the README in the stl folder.), and then focus on the electronics and mechanics of the multi-color system itself.
+My approach is different: let a dedicated filament storage box do the heavy lifting (I will include the one I used. It is simple, but make sure to check the README in the stl folder.), and then focus on the electronics and mechanics of the multi-color system itself.
 
 You might be thinking, “Wait, isn’t this basically the MMU/ERCF idea?” True, but their designs are still way too complex—they use lead screws, linear rods, and even require servos. So you can think of my approach as a Box Turtle that runs on a regular Klipper board (no special brushed motor driver needed) and uses an off-the-shelf buffer—but without Box part.
 
