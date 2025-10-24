@@ -9,7 +9,7 @@
 | M3x8 Screw     | 1 per channel |                                 |
 | D-shaped shaft | 2 per channel | 90mm length                    |
 | O-Ring         | 2 per channel | 20mm outer diameter, 3mm width  |
-| Rubber tube    | ~             | 30mm outer diameter, 25mm inner |
+| Rubber tube    | ~             | 30mm outer diameter, 27mm inner |
 | M4x10 Screw    | 8             |                                 |
 | M4 Hex Nut     | 8             |                                 |
 | M3 Hex Nut     | 1 per channel |                                 |
