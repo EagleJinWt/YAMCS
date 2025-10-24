@@ -8,7 +8,7 @@
 | MR83 Bearing   | 1 per channel |                                 |
 | M3x8 Screw     | 1 per channel |                                 |
 | D-shaped shaft | 2 per channel | 90mm length                    |
-| O-Ring         | 2 per channel | 20mm outer diameter, 3mm width  |
+| O-Ring         | 2 per channel | 30mm outer diameter, 3mm width  |
 | Rubber tube    | ~             | 30mm outer diameter, 27mm inner |
 | M4x10 Screw    | 8             |                                 |
 | M4 Hex Nut     | 8             |                                 |
