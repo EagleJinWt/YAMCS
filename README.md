@@ -8,7 +8,7 @@
 
 ## Overview  
 
-This project explores a *low-cost*, *hackable*, and *modular* approach to multi-color 3D printing — without the need for expensive AMS systems or complex servo mechanisms.  
+This project explores a *low-cost* and *modular* approach to multi-color 3D printing — without the need for expensive AMS systems or complex servo mechanisms.  
 
 Instead of building a completely new multi-material system, the idea is to combine existing, reliable components and let **Klipper** handle the orchestration.  
 
