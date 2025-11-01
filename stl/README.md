@@ -6,7 +6,7 @@
 |----------------|---------------|---------------------------------|
 | MR105 Bearing  | 4 per channel |                                 |
 | MR83 Bearing   | 1 per channel |                                 |
-| M3x8 Screw     | 1 per channel |                                 |
+| M3x12 Screw     | 1 per channel |                                 |
 | D-shaped shaft | 2 per channel | 90mm length                    |
 | O-Ring         | 2 per channel | 30mm outer diameter, 3mm width  |
 | Rubber tube    | ~             | 30mm outer diameter, 27mm inner |
