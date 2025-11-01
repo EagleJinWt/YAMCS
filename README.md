@@ -26,7 +26,7 @@ Think of it as:
 | **Extruders** | Standard **BMG-style extruders** — one per filament channel |
 | **Buffer Unit** | A **Mellow LLL buffer** (A reletively cheap one I found) |
 | **Sensors** |  - One **filament sensor** per channel (Insert detection, for trigging the load process)<br> - One **filament sensor** on the toolhead (detection & timing). <br>*You don't need motion detection, regular ones with a microswitch will do it* |
-| **Filament Cutter** | Optional, Recommended — Install for hight success rate during color switching. It is not necessary, tip-forming can work after good tuning. Check [Filamatrix](https://github.com/sorted01/Filametrix) if you are using StealthBurner |
+| **Filament Cutter** | Optional, Recommended — Install for higher success rate during color switching. It is not necessary, tip-forming can work after good tuning. Check [Filamatrix](https://github.com/sorted01/Filametrix) if you are using StealthBurner |
 | **MOSFETs (x2)** | Used to emulate button presses on the buffer’s control PCB. Anything like a **BSS138** should work, you don't need those heavy load one |
 | **4-in-1-out-adapter** | The Bambulab one for P1 serires works best for me, in theory you can use any one that works, even the printed ones |
 
