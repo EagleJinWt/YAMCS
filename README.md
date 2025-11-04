@@ -94,12 +94,11 @@ If you believe in clever hacks and low-cost innovation, you’re in the right pl
 
 ---
 
-## Future Plans  
+## To-Do
 
-- Add wiring diagrams and example Klipper macros  
-- Share example toolhead sensor integration  
-- Document color change timing optimization  
-- Test real-world performance on ABS and PLA  
+- Add Assembly Manual for Respooler  
+- Test Macro & Config
+- Publish Slicer Settings 
 
 ---
 
@@ -109,7 +108,7 @@ If you believe in clever hacks and low-cost innovation, you’re in the right pl
 
 [Mellow LLL Filament Buffer Item Page](https://es.aliexpress.com/item/1005007265643359.html)
 
-[Spool holder & rewinder](placeholder.com)
+[Spool holder & rewinder](stl/README.md)
 
 ---
 
