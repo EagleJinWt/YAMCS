@@ -2,7 +2,8 @@
 
 - Orient parts as shown in picture
 - Paint supports as shown in picture, if not generated
-- They are oriented like this and need support is because this is the only way to make reliable , accurate holes (As we all know FDM 3D printers can make better holes in XY-Plane and not in Z-Plane).
+- They are oriented like this and need support is because this is the only way to make reliable , accurate holes (As we all know FDM 3D printers can make better holes in XY-Plane and not in Z-Plane)
+- Alternatively, cut the models (The Base, The Idler Roller, and The O-Ring holder) by half, you can print them without support, just sacrifices some strength (Because of combining parts afterwards) and you save a few grams of filament
 - 20% infill
 
 ![Parts Orientation & Support](Part_Orient.png)
