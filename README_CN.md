@@ -107,9 +107,10 @@ Mellow LLL耗材缓冲器使用自己的控制器，无法直接与Klipper通信
 
 [Mellow LLL耗材缓冲器商品页面](https://item.taobao.com/item.htm?id=803615410921)
 
-[线轴支架和绕线器](stl/README.md)
+[耗材支架+被动回卷](stl/README.md)
 
 ---
 
-**许可证：** MIT
+**开源许可：** MIT
+
 **贡献者：** 希望有你！
