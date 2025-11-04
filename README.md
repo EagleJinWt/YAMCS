@@ -1,3 +1,4 @@
+[中文版/Chinese Version](README_CN.md)
 
 # Yet Another MultiColor Solution (For klipper 3D Printers)
 
