@@ -1,5 +1,10 @@
 # Filament Storage Box with Passive Respool
 
+- Orient parts as shown in picture
+- Paint supports as shown in picture, if not generated
+- They are oriented like this and need support is because this is the only way to make reliable , accurate holes (As we all know FDM 3D printers can make better holes in XY-Plane and not in Z-Plane).
+- 20% infill
+
 ## BOM:
 
 | Name           | Quantity      | Specifications                  |
