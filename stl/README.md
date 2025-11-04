@@ -5,7 +5,7 @@
 - They are oriented like this and need support is because this is the only way to make reliable , accurate holes (As we all know FDM 3D printers can make better holes in XY-Plane and not in Z-Plane).
 - 20% infill
 
-![Parts Orientation & Support](stl/Part_Orient.png)
+![Parts Orientation & Support](Part_Orient.png)
 
 ## BOM:
 
