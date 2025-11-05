@@ -29,7 +29,7 @@
 - For the o-ring, diameter don't have to be percise since they are flexible, but don't go too far off. The width matters, because that effects how hard it can grip the filament
 - For the Rubber tube, diameter don't have to be percise since they are flexible, but don't go too far off
 - The box size is for a 4-channel build, try to get the boxes without handle, because they conflicts with the filament spool sometimes
-- Maybe considering buying some decandecent, since this is supposed to be a storage box
+- Maybe considering buying some desiccant, since this is supposed to be a storage box
 
 ### Box Modification:
 - 2 drilled holes per channel
