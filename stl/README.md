@@ -24,8 +24,14 @@
 | Storage Box    | 1             | L40.5, W31.5, H23(cm), Sealed   |
 
 ### Note:
-- **Buy extra** for the hardware listed above. Screws are usually sold in a pack of 25/50/100, so no worries on that.
-- The quantity for the rubber tube is not specified, since they are usually sold in meters, and 1 meter will be plenty.
-- For the o-ring, diameter don't have to be percise since they are flexible, but don't go too far off. The width matters, because that effects how hard it can grip the filament.
-- For the Rubber tube, diameter don't have to be percise since they are flexible, but don't go too far off.
-- The box size is for 4-channel build, and try to get the ones without handle, because they conflicts with the filament spool sometimes.
+- **Buy extra** for the hardware listed above. Screws are usually sold in a pack of 25/50/100, so no worries on that
+- The quantity for the rubber tube is not specified, since they are usually sold in meters, and 1 meter will be plenty
+- For the o-ring, diameter don't have to be percise since they are flexible, but don't go too far off. The width matters, because that effects how hard it can grip the filament
+- For the Rubber tube, diameter don't have to be percise since they are flexible, but don't go too far off
+- The box size is for a 4-channel build, try to get the boxes without handle, because they conflicts with the filament spool sometimes
+- Maybe considering buying some decandecent, since this is supposed to be a storage box
+
+### Box Modification:
+- 2 drilled holes per channel
+- You can use the holes on the base plate as a jig
+- Use a 5mm drill bit
